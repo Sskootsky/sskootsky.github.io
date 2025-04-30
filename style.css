@@ -52,3 +52,42 @@ h2 {
     margin: 0 auto 1.5rem auto; /* Center the image and add space below */
     border: 3px solid #3498db; /* Add a subtle border */
 }
+
+/* Styling for elements with the .click-button class */
+.click-button {
+    display: inline-block; /* Allows padding and margin */
+    margin-top: 1rem; /* Space above the button */
+    padding: 0.2rem 0.6rem; /* More padding for a larger button */
+    background-color: #3498db; /* Blue background */
+    color: #fff !important; /* White text, !important to override potential default link color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Smooth transition for color and a subtle press effect */
+    font-weight: 700; /* Make the button text bold */
+    text-align: center; /* Center text if the button is wider */
+    border: none; /* Remove default button border if any */
+    cursor: pointer; /* Indicate it's clickable */
+ }
+ 
+ .click-button:hover {
+     background-color: #2980b9; /* Darker blue on hover */
+     text-decoration: none; /* Keep underline removed on hover */
+ }
+ 
+ .click-button:active {
+     transform: scale(0.98); /* Slightly shrink the button when clicked */
+ }
+
+ .button-container {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Distributes space between the items */
+    /* gap: 1rem; /* You can remove or adjust the gap if using space-between */ */
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line on smaller screens */
+    margin-top: 1.5rem; /* Space above the button container */
+    width: 100%; /* Ensure the container takes up the full width available */
+    max-width: 900px; /* Match the max-width of the section */
+    margin-left: auto; /* Center the container if its width is less than the max-width */
+    margin-right: auto; /* Center the container */
+    padding: 0 2rem; /* Add some padding to prevent buttons from touching the section edges */
+    box-sizing: border-box; /* Include padding in the element's total width */
+}
