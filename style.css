@@ -1,46 +1,45 @@
+/* Import a clean, professional font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif; /* Use the imported font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f8f8f8; /* Lighter background */
     color: #333;
+    scroll-behavior: smooth; /* Smooth scrolling for potential future anchor links */
 }
 
 header {
-    background: #50a3a2;
-    color: #fff;
-    padding: 1rem 0;
+    background: #2c3e50; /* A deep, professional blue/gray */
+    color: #ecf0f1; /* Light text for contrast */
+    padding: 2rem 0; /* More padding */
     text-align: center;
+    margin-bottom: 2rem; /* Space below header */
 }
 
 header h1 {
-    margin: 0;
+    margin: 0 0 0.5rem 0; /* Adjust margin */
+    font-size: 2.5em; /* Larger heading */
+    font-weight: 700; /* Bold font weight */
+}
+
+header p {
+    font-size: 1.1em;
+    opacity: 0.9; /* Slightly less prominent */
 }
 
 section {
-    padding: 1rem;
-    margin: 1rem auto;
-    max-width: 800px;
+    padding: 2rem; /* More internal padding */
+    margin: 1.5rem auto; /* More margin between sections */
+    max-width: 900px; /* Slightly wider content area */
     background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners for sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
 }
 
 h2 {
-    color: #50a3a2;
+    color: #3498db; /* A brighter blue for headings */
+    border-bottom: 2px solid 
 }
-
-.portfolio-item {
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #333;
-    color: #fff;
-    margin-top: 1rem;
-}
-
