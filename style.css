@@ -40,6 +40,15 @@ section {
 }
 
 h2 {
-    color: #3498db; /* A brighter blue for headings */
+    color: #000000; 
     border-bottom: 2px solid 
+}
+
+.profile-img {
+    display: block; /* Make the image a block element to center it */
+    max-width: 200px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it round */
+    margin: 0 auto 1.5rem auto; /* Center the image and add space below */
+    border: 3px solid #3498db; /* Add a subtle border */
 }
